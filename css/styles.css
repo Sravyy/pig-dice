@@ -1,0 +1,39 @@
+.border {
+  border: 2px solid black;
+  width: 40%;
+  height: 480px;
+  margin: 1% 5%;
+  padding: 5px;
+  background-color: lightgray;
+  box-shadow: inset 4px 8px 8px black;
+}
+body {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/dice.png");
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+}
+button {
+  width: 30%;
+  margin: 20px;
+  box-shadow: 2px 5px 5px black;
+}
+.active-user {
+  box-shadow: 4px 8px 8px black;
+  background-color: white;
+}
+h1 {
+  color : #efe0a5;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  text-shadow: 1px 3px 4px black;
+  font-size: 60px;
+}
+img {
+  margin-top: 10%;
+}
+h5, #playertotal0, #playertotal1 {
+  color : red;
+  font-size: 30px;
+}

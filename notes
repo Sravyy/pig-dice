@@ -1,0 +1,38 @@
+create player name, total score
+create current roll , its number displayed
+create turn score, its value calculated based on ROLL and hold
+create 2 buttons , Roll and hold
+everytime user rolls, assign current roll and its values
+everytime user holds, add the turnScore to totalscore
+if user hits 1, pass the turn(next turn) to 2nd player, dnt add the turnscore to totalscore
+
+define next turn, active user in js
+
+
+
+
+set the basic turnScore, turnIndex to 0 //in js
+
+define a constructor that defines player's name and score(total score);
+
+use this constructor to create a prototype for ROLL (this will have the calculation needed for the random dice roll) - define what happens when it hits 1, else cases.
+
+use the constructor to create a prototype that define the HOLD function. - this adds the turnScore to totalscore i.e, playerscore, gives nextTurn.
+
+define nextTurn; 1, Here we set who is the active player based on the turnIndex(user defined variable).2, to switch between players, we use toggleClass .add a CLASS active-user in one HTML div player and pass that in toggleClass to switch between multiple players.
+
+create players to prompt names , pass it to player1 and 2;
+
+create a function to updatedisplay - currentroll number, turnscore.
+
+
+prompt users to enter names outside the document;
+
+FRONTEND LOGIC:
+
+1. update those names as player1 and 2 once the page loads.
+2. when he clicks roll button, call roll();
+3. when he clicks hold, call hold();, update playertotal
+  if score reaches 100, display alert that he wins, reload the page
+  if not, reset turnscore, turnIndex to 0;
+  call nextTurn.
